@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.payment</groupId>
+    <artifactId>payment-system</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>api-gateway</module>
+        <module>auth-service</module>
+        <module>user-service</module>
+        <module>account-service</module>
+        <module>payment-service</module>
+        <module>transaction-service</module>
+        <module>fraud-service</module>
+        <module>notification-service</module>
+        <module>common-lib</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+        <spring.boot.version>3.5.13</spring.boot.version>
+    </properties>
+</project>
