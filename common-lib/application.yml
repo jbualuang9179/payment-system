@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: common-lib
+          uri: http://localhost:8084
+          predicates:
+            - Path=/payments/**

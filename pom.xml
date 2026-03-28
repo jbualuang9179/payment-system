@@ -1,7 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0">
+<project>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.payment</groupId>
+    <groupId>com.jb.payment</groupId>
     <artifactId>payment-system</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
@@ -9,7 +9,6 @@
     <modules>
         <module>api-gateway</module>
         <module>auth-service</module>
-        <module>user-service</module>
         <module>account-service</module>
         <module>payment-service</module>
         <module>transaction-service</module>
