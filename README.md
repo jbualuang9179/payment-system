@@ -1,16 +1,18 @@
-payment-system/
-│
-├── pom.xml (parent)
-│
-├── api-gateway/              (Spring WebFlux + JWT)
-├── auth-service/             (JWT + login)
-├── user-service/
-├── account-service/
-├── payment-service/
-├── transaction-service/
-├── fraud-service/
-├── notification-service/
-│
-├── common-lib/               (DTO / utils)
-├── docker-compose.yml
-└── README.md
+# Global Payment System (PayPal-style)
+
+Tech Stack:
+- Java 17
+- Spring Boot 3.5
+- WebFlux Gateway
+- Kafka
+- Microservices
+- Docker
+
+Features:
+- JWT Auth
+- Payment Processing
+- Event-driven architecture
+- Scalable design
+
+Run:
+docker-compose up
